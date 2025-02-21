@@ -1,0 +1,17 @@
+@media screen and (max-width:930px) {
+    section{
+        height: fit-content;
+        margin: 10px;
+    }
+    section div.parent_div{
+        flex-direction: column;
+        align-items: center;
+    }
+    section div.three_box{
+        width: 327px;
+        height: 442px;
+    }
+    section .three_box button{
+     margin-top: 25px;
+    }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+div.parent_div{
+    display: flex; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+section .three_box{
+    width: 307px;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left:47.5px ;
+    box-sizing: border-box;
+}
+section .yellow{
+    background-color: #E28625;
+}
+section .green{
+    background-color: #006971;
+}
+section .dark{
+    background-color: #004140;
+}
+p{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-family: "Big Shoulders Display", "serif";
+}
+article{
+    width: 212px;
+    height: 125px;
+    font-family: "Lexend Deca", serif; 
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: start;
+}
+img{
+    width: 64px;
+    height: 40px;
+    padding-top: 48px
+}
+
+button{
+    font-family: "Lexend Deca", "serif" ;
+    font-size: 15px;
+    font-weight: 400;
+    width: 146px;
+    height: 48px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 83px;
+    background-color: white;
+    border: 1px solid white;
+    color: #E28625;
+    cursor: pointer;
+}
+.green button{
+    color:#006971 ;
+}
+.dark button{
+    color: #004140;
+}
+button:active{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+}
